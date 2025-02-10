@@ -1,0 +1,192 @@
+/* body{
+  margin: 0;
+}
+@media (max-aspect-ratio:7/10){
+  .joinContainer{
+    width: 100% !important;
+    border: 2px solid white;
+  }
+  .joinContainer >img{
+    width: 30vw !important;
+  }
+  .joinContainer >h1{
+    font-size: 7vw !important;
+    width: 30vmax;
+    padding: 2vmax;
+  }
+
+  #joininput{
+    width: 30vmax;
+    padding: 1.5vmax;
+    /* border: none; */
+    /* outline: none; */
+    /* margin: 2vmax; */
+    /* box-sizing: border-box; */
+    /* font-size: 1.2vmax; */
+  
+  /* .joinbtn{
+    width: 25vmax;
+    padding: 3vmax;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+  } */
+
+
+  body{
+    margin: 0;
+    }
+    
+    
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .joinContainer {
+        width: 80%;
+        padding: 1.5rem;
+      }
+    
+      .joinContainer > h1 {
+        font-size: 1.8rem;
+      }
+    
+      .joinbtn, #joininput {
+        font-size: 1rem;
+        padding: 0.8rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .joinContainer {
+        width: 95%;
+        padding: 1rem;
+      }
+    
+      .joinContainer > h1 {
+        font-size: 1.5rem;
+      }
+    
+      .joinbtn, #joininput {
+        font-size: 0.9rem;
+        padding: 0.7rem;
+      }
+    }
+    
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .chatContainer {
+        width: 90%;
+        height: 70%;
+      }
+    
+      .header > h2 {
+        font-size: 1.2rem;
+      }
+    
+      #chatInput {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+      }
+    
+      .sendBtn {
+        font-size: 0.9rem;
+      }
+    
+      .sendBtn > img {
+        width: 1.5rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .chatContainer {
+        width: 95%;
+        height: 85%;
+      }
+    
+      .header > h2 {
+        font-size: 1rem;
+      }
+    
+      #chatInput {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+        width: 70%;
+      }
+    
+      .sendBtn {
+        font-size: 0.8rem;
+        width: 30%;
+      }
+    
+      .sendBtn > img {
+        width: 1.2rem;
+      }
+    }
+    
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .chatContainer {
+        width: 90%;
+        height: 70%;
+      }
+    
+      .header > h2 {
+        font-size: 1.2rem;
+      }
+    
+      #chatInput {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+      }
+    
+      .sendBtn {
+        font-size: 0.9rem;
+      }
+    
+      .sendBtn > img {
+        width: 1.5rem;
+      }
+    
+      .messageBox {
+        width: 60%;
+        padding: 0.8vmax;
+        margin: 0.5vmax;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .chatContainer {
+        width: 95%;
+        height: 85%;
+      }
+    
+      .header > h2 {
+        font-size: 1rem;
+      }
+    
+      #chatInput {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+        width: 70%;
+      }
+    
+      .sendBtn {
+        font-size: 0.8rem;
+        width: 30%;
+      }
+    
+      .sendBtn > img {
+        width: 1.2rem;
+      }
+    
+      .messageBox {
+        width: 80%;
+        padding: 0.6vmax;
+        margin: 0.4vmax;
+        font-size: 0.9rem;
+      }
+    }
+    
