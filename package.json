@@ -1,0 +1,21 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
